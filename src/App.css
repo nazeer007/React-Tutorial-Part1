@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 4px;
+}
+.movie-container, .posts-container{
+    padding: 10px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+article{
+    border: 1px solid rgb(181, 180, 180);
+    padding: 10px;
+    border-radius: 10px;
+}
+article:hover{
+    box-shadow: 0px 0px 4px 4px rgb(121, 188, 246);
+}
